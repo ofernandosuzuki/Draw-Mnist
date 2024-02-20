@@ -48,8 +48,8 @@ button {
 
 #prediction {
   margin-top: 20px;
-  font-size: 22px; /* Ajuste este valor para o tamanho de fonte desejado */
-  /* seu CSS aqui */
+  font-size: 22px; 
+  color: white;
 }
 
 a {
