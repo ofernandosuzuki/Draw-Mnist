@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Draw Mnist | Fernando Suzuki </title>
+</head>
+<body>
+    <div id="container">
+        <h2 id="instruction">Draw a single digit (0-9) in the box</h2>
+        <canvas id="myCanvas" width="280" height="280"></canvas>
+        <div id="buttons">
+            <button id="clearButton">Clean</button>
+            <button id="predictButton">Predict</button>
+        </div>
+        <p id="prediction"></p>
+    </div>
+
+    <a href="https://github.com/ofernandosuzuki" target="_blank">
+        <img src="../static/images/logo.png" alt="GitHub Logo" width="50" height="50">
+    </a>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>   
+</html>

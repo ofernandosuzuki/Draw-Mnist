@@ -1,0 +1,10 @@
+ipykernel
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+torchaudio
+Flask
+tqdm
+html5lib
